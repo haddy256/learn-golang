@@ -4,7 +4,7 @@ import "fmt"
 
 var c, python, java bool
 
-func main() {
+func variable() {
 	var i int
 	fmt.Println(i, c, python, java)
 }
