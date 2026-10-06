@@ -5,7 +5,7 @@ import "fmt"
 const Pi = 3.14
 
 func main() {
-	const World = "世界"
+	const World = "Hein Htet Khaing"
 	fmt.Println("Hello", World)
 	fmt.Println("Happy", Pi, "Day")
 
