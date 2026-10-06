@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func add(x, y int) int {
+func substract(x, y int) int {
 	return x + y
 }
 
-func main() {
+func multiply(x, y int) int {
 	fmt.Println(add(42, 13))
 }
