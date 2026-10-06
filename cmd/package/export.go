@@ -1,11 +1,9 @@
-package export
+package main
 
-// Hello is uppercase → public (other packages can use it)
-func Hello() string {
-	return "Hi!"
-}
+import (
+	"fmt"
+)
 
-// bye is lowercase → private (hidden outside this package)
-func bye() string {
-	return "Bye!"
+func main() {
+	fmt.Println(math.pi)
 }
